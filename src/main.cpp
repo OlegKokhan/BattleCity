@@ -39,7 +39,7 @@ int main(void)
 	GLFWwindow* pWindow = glfwCreateWindow(g_windowSizeX, g_windowSizeY, "BattleCity", nullptr, nullptr);
 	if (!pWindow)
 	{
-		std::cout << "glfwTerminate failed" << std::endl;
+		std::cout << "glfwTerminate ofailed" << std::endl;
 		glfwTerminate();
 		return -1;
 	}
